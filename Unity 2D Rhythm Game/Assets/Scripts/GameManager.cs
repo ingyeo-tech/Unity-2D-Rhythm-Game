@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     private SpriteRenderer[] trailSpriteRenderers;
 
     private AudioSource audioSource; //object, animator등 기능 객체화
-    private string music = "Drops of H20";
+    public string music = "1";
 
     //음악을 실행하는 함수입니다.
     void MusicStart()
@@ -155,4 +155,5 @@ public class GameManager : MonoBehaviour
         }
         showJudgement();
     }
+    //ALT + enter : 힌트보기
 }
